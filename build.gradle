@@ -42,6 +42,9 @@ dependencies {
     // h2 DB
     implementation 'com.h2database:h2'
 
+    // mustache
+    implementation('org.springframework.boot:spring-boot-starter-mustache')
+
 
 
     // For test
