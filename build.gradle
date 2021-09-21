@@ -32,10 +32,20 @@ repositories {
 // 버전을 명시하지 않는 것이 좋다. 그래야 위 gradle plugin 즉, 2.1.7RELEASE 버전을 따라감.
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
     // Lombok
     implementation 'org.projectlombok:lombok'
+
+    // For data
+    // spring data jpa
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    // h2 DB
+    implementation 'com.h2database:h2'
+
+
+
+    // For test
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 //    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.0'
 //    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.0'
